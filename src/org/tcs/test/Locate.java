@@ -19,6 +19,6 @@ public static void main(String[] args) {
 	txtusername.sendKeys("praveenreddy42@gmail.com");
 	WebElement password=driver.findElement(By.id("pass"));
 	password.sendKeys("1reddy12@");
-	driver.quit();
+	driver.close();
 }
 }
